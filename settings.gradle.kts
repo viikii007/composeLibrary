@@ -16,8 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven(url = "https://www.jitpack.io")
     }
 }
+
+
 
 rootProject.name = "Composeownlibrary"
 include(":app")
